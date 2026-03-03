@@ -27,7 +27,7 @@
 | Version Control| Git + GitHub                                |
 
 ## Project Structure
-e-library/
+libnow/
 │ server.js ← entry point
 │ package.json ← npm dependencies & scripts
 │
@@ -43,8 +43,8 @@ e-library/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/darrelchang03/e-library.git
-   cd e-library
+   git clone https://github.com/darrelchang03/libnow.git
+   cd libnow
   
 2. Install dependencies:
    ```bash
