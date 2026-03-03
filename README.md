@@ -1,12 +1,8 @@
-# e-Library
+# libnow A full-stack web application built to manage an online library — enabling users to browse, borrow and return books in a streamlined and user-friendly interface.
 
-A full-stack web application built to manage an online library — enabling users to browse, borrow and return books in a streamlined and user-friendly interface.
+## Project Overview
 
----
-
-## 🧾 Project Overview
-
-**e-Library** is designed as a modern digital library system built with JavaScript, Node.js, and Express, with EJS templating and MongoDB (or your choice of database) for data persistence. Through this project I learned end-to-end web app skills: front-end views, back-end logic, routing, and data modelling.
+**libnow** is designed as a modern digital library system built with JavaScript, Node.js, and Express, with EJS templating and MongoDB (or your choice of database) for data persistence. Through this project I learned end-to-end web app skills: front-end views, back-end logic, routing, and data modelling.
 
 ### Key features
 - Book catalog view: list all available books, view details, cover images.  
@@ -20,10 +16,8 @@ A full-stack web application built to manage an online library — enabling user
 
 ---
 
-## 🧰 Technology Stack
+## Stack
 
-| Layer          | Technology                                 |
-|----------------|--------------------------------------------|
 | Runtime        | Node.js                                     |
 | Web Framework  | Express.js                                  |
 | Templating     | EJS                                         |
@@ -32,9 +26,7 @@ A full-stack web application built to manage an online library — enabling user
 | Project Structure | MVC-inspired: models, routes, views, public assets |
 | Version Control| Git + GitHub                                |
 
----
-
-## 📂 Project Structure
+## Project Structure
 e-library/
 │ server.js ← entry point
 │ package.json ← npm dependencies & scripts
@@ -47,7 +39,7 @@ e-library/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup
 
 1. Clone the repository:
    ```bash
@@ -69,9 +61,7 @@ e-library/
 
 5. Open your browser and navigate to http://localhost:3000 (or whichever port you changed it to).
 
----
-
-## ✅ What I Learned / Challenges
+## What I Learned / Challenges
 
 Designed and implemented a full REST-style back-end with Express & MongoDB.
 
@@ -85,7 +75,7 @@ Faced and addressed common challenges such as: routing conflicts, database index
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Add user authentication & authorization (e.g., using Passport.js, bcrypt) so only logged-in users can borrow/return books.
 
