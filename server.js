@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config()
 }
+require('dotenv').config()
 
 // Package imports
 const express = require('express')
